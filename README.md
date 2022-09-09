@@ -12,3 +12,4 @@ This script takes the csv (exported from the app) and carries out data manipulat
 Two output files are exported in csv. The leaderboard with adjusted scores (end of season best and fairest) and the per round adjusted points (weekley man of the match).
 
 Simply change the name of the csv file to be read on line 8 and run.
+Create an excel file as per the example.xlsx and note each non voter per round, then change the "setTeam" to reflect whatever team you are running and penalty to reflect how many points per week should be deducted for each non-voter. Note that if a player did not score more than the penalty amount then no penalty will be applied, meaning no player can record negative points.
